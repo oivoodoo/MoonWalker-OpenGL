@@ -89,6 +89,12 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="GameScene.cs" />
+    <Compile Include="Asteroid.cs" />
+    <Compile Include="IGameObject.cs" />
+    <Compile Include="ModelUtility.cs" />
+    <Compile Include="MoonWalker.cs" />
+    <Compile Include="Planet.cs" />
+    <Compile Include="TextureUtility.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,7 +1,6 @@
 using System;
-using Voodoo.Game;
 
-namespace ShadowTest
+namespace Voodoo.Game
 {
 	class MainClass
 	{

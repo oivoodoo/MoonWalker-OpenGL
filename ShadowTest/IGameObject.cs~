@@ -1,0 +1,18 @@
+
+using System;
+
+namespace Voodoo.Game.Graphics
+{
+	
+	
+	public interface IGameObject
+	{
+		void Render();
+
+		void BindTexture();
+
+		void Init();
+
+	    void Render(bool isColor);
+	}
+}
