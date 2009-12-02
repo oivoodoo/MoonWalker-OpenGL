@@ -218,42 +218,6 @@ namespace Voodoo.Game
             Gl.glPopMatrix();
         }
 
-
-        private void DrawCube(float x, float y, float z)
-        {
-            Gl.glPushMatrix();
-            Gl.glBegin(Gl.GL_QUADS);
-            // top
-            Gl.glNormal3f(0.0f, 1.0f, 0.0f);
-            Gl.glTexCoord2f(0.0f, 0.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(1.0f + y), (float)(1.0f + z));
-            Gl.glTexCoord2f(1.0f, 0.0f); Gl.glVertex3f((float)(1.0f + x), (float)(1.0f + y), (float)(1.0f + z));
-            Gl.glTexCoord2f(1.0f, 1.0f); Gl.glVertex3f((float)(1.0f + x), (float)(1.0f + y), (float)(-1.0f + z));
-            Gl.glTexCoord2f(0.0f, 1.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(1.0f + y), (float)(-1.0f + z));
-
-            // bottom
-            Gl.glNormal3f(0.0f, -1.0f, 0.0f);
-            Gl.glTexCoord2f(0.0f, 0.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(-1.0f + y), (float)(-1.0f + z));
-            Gl.glTexCoord2f(1.0f, 0.0f); Gl.glVertex3f((float)(1.0f + x), (float)(-1.0f + y), (float)(-1.0f + z));
-            Gl.glTexCoord2f(1.0f, 1.0f); Gl.glVertex3f((float)(1.0f + x), (float)(-1.0f + y), (float)(1.0f + z));
-            Gl.glTexCoord2f(0.0f, 1.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(-1.0f + y), (float)(1.0f + z));
-
-            // left
-            Gl.glNormal3f(-1.0f, 0.0f, 0.0f);
-            Gl.glTexCoord2f(0.0f, 0.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(-1.0f + y), (float)(-1.0f + z));
-            Gl.glTexCoord2f(1.0f, 0.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(-1.0f + y), (float)(1.0f + z));
-            Gl.glTexCoord2f(1.0f, 1.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(1.0f + y), (float)(1.0f + z));
-            Gl.glTexCoord2f(0.0f, 1.0f); Gl.glVertex3f((float)(-1.0f + x), (float)(1.0f + y), (float)(-1.0f + z));
-
-            // right
-            Gl.glNormal3f(1.0f, 0.0f, 0.0f);
-            Gl.glTexCoord2f(0.0f, 0.0f); Gl.glVertex3f((float)(1.0f + x), (float)(-1.0f + y), (float)(1.0f + z));
-            Gl.glTexCoord2f(1.0f, 0.0f); Gl.glVertex3f((float)(1.0f + x), (float)(-1.0f + y), (float)(-1.0f + z));
-            Gl.glTexCoord2f(1.0f, 1.0f); Gl.glVertex3f((float)(1.0f + x), (float)(1.0f + y), -(float)(1.0f + z));
-            Gl.glTexCoord2f(0.0f, 1.0f); Gl.glVertex3f((float)(1.0f + x), (float)(1.0f + y), (float)(1.0f + z));
-            Gl.glEnd();
-            Gl.glPopMatrix();
-        }
-
         private void InitializeLights()
         {
             Gl.glLightiv(Gl.GL_LIGHT0, Gl.GL_SPOT_EXPONENT, new int[] { 128 });

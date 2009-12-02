@@ -1,7 +1,7 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="GameScene.cs" ctype="Workbench">
     <Files>
-      <File FileName="GameScene.cs" Line="212" Column="41" />
+      <File FileName="GameScene.cs" Line="219" Column="10" />
       <File FileName="MoonWalker.cs" Line="58" Column="43" />
       <File FileName="Asteroid.cs" Line="58" Column="21" />
     </Files>
