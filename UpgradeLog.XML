@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ShadowTest">
+</Property><Property Name="Solution File" Value="E:\sample\3DMachine\ShadowTest.sln">
+</Property><Property Name="Date" Value="Wednesday, December 02, 2009">
+</Property><Property Name="Time" Value="9:43 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ShadowTest.sln" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest.sln">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\ShadowTest.csproj" Description="Project file successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\ShadowTest.csproj">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\Main.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\Main.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\AssemblyInfo.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\GameScene.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\GameScene.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\Asteroid.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\Asteroid.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\IGameObject.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\IGameObject.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\ModelUtility.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\ModelUtility.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\MoonWalker.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\MoonWalker.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\Planet.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\Planet.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\TextureUtility.cs" Description="File successfully backed up as E:\sample\3DMachine\Backup\ShadowTest\TextureUtility.cs">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\ShadowTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ShadowTest" Source="ShadowTest\ShadowTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ShadowTest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ShadowTest.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ShadowTest" Source="ShadowTest\ShadowTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

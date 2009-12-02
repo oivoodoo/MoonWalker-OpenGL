@@ -15,17 +15,24 @@ namespace Voodoo.Game
 		public void Init ()
 		{
 			Gl.glNewList(200, Gl.GL_COMPILE_AND_EXECUTE);
+                Gl.glNormal3f(0.0f, 1.0f, 0.0f);
+                Gl.glTexCoord2f(0.0f, 0.0f);
 				Glut.glutSolidSphere(1.0f, 30, 30);
                 Gl.glPushMatrix();
                     Gl.glTranslatef(0.0f, 0.65f, 0.0f);
+                    Gl.glNormal3f(0.0f, -1.0f, 0.0f);
+                    Gl.glTexCoord2f(0.0f, 0.5f);
                     Glut.glutSolidSphere(0.3f, 30, 30);
                 Gl.glPopMatrix();
                 Gl.glPushMatrix();
                     Gl.glTranslatef(0.0f, 0.65f, 0.3f);
+                    Gl.glNormal3f(-1.0f, 0.0f, 0.0f);
+                    Gl.glTexCoord2f(0.5f, 0.5f);
                     Glut.glutSolidSphere(0.3f, 30, 30);
                 Gl.glPopMatrix();
                 Gl.glPushMatrix();
                     Gl.glTranslatef(0.3f, 0.65f, 0.1f);
+                    Gl.glTexCoord2f(0.5f, 0.0f);
                     Glut.glutSolidSphere(0.3f, 30, 30);
                 Gl.glPopMatrix();
                 Gl.glPushMatrix();

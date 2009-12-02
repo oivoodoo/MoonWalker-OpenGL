@@ -1,0 +1,5 @@
+E:\sample\3DMachine\ShadowTest\bin\Debug\ShadowTest.exe
+E:\sample\3DMachine\ShadowTest\bin\Debug\ShadowTest.pdb
+E:\sample\3DMachine\ShadowTest\obj\Debug\ResolveAssemblyReference.cache
+E:\sample\3DMachine\ShadowTest\obj\Debug\ShadowTest.exe
+E:\sample\3DMachine\ShadowTest\obj\Debug\ShadowTest.pdb

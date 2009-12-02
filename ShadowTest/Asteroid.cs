@@ -48,15 +48,19 @@ namespace Voodoo.Game
 		public void Render (bool isColor)
 		{
 			Gl.glPushMatrix();
-				Gl.glEnable(Gl.GL_TEXTURE_2D);
-					if (isColor)
+				Gl.glEnable(Gl.GL_BLEND);
+					if (!isColor)
 					{
-						Gl.glBindTexture(Gl.GL_TEXTURE_2D, texture);
+						Gl.glColor3f(0.136f, 0.099f, 0.046f);
 					}
+					else
+					{
+						Gl.glColor4f(0.0f, 0.0f, 0.0f, 0.7f);
+					}	
 					Gl.glTranslatef(x, y - asteroidWave, z);
 					Gl.glRotatef(rotation, rotationX, rotationY, rotationZ);
 					Gl.glCallList(100);
-				Gl.glDisable(Gl.GL_TEXTURE_2D);
+				Gl.glDisable(Gl.GL_BLEND);
 			Gl.glPopMatrix();
 
 			UpdatePositions();
